@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="login.udem.edu"><IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" validUntil="2024-07-11T23:14:42.455Z"><KeyDescriptor use="signing"><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509Certificate>MIIC0TCCAbmgAwIBAgIEOVN8OTANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDEw5sb2dpbi51ZGVt
+LmVkdTAeFw0yNDA1MzAwMTQ5MThaFw0zNTA1MjgwMTQ5MThaMBkxFzAVBgNVBAMTDmxvZ2luLnVk
+ZW0uZWR1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxXEtLeigvrvnsX0QTH+RqjA3
+MlX5lyhvkKH2ZHdsiurGGjDfUQ8tienNT+pZp60yHk34jqkXijG3JcIeK5i6xZAq6Q5CYx8aOKJT
+5gmSP2bRpN16V70gaXaYsqnx6u5XWe8tlAuFtcAtPrLpMr+YiZgHgciP88Sijurtp6rvljfMlkEL
+CCcfLf2lxp5fBW3mEmTz5IApADWrTQzwfHr1Ps1HjrLC4P+GwBlt8Cjo0ej36KBGpyL6BvZR94Tn
+iLkJx0IHUGKxcwF4lUNRSzjCTdsQvmuQfdaDaIHHaTDbVkSZCE/1c5vnWCjqdvyfReDBmZpYOrc7
+4sgsxqYdcm/C1QIDAQABoyEwHzAdBgNVHQ4EFgQUX4i5p01PxgwiJqYxNpLcq5FyGb8wDQYJKoZI
+hvcNAQELBQADggEBABU1Nw8HnoL/KQQJfSl/1Wrd7ZkgN/7IHTKCqpyszWlQ+S1lCH1jrReabLa5
+QFY9iiEaUEc3s92hB/CcfRvuUd96ZcoxSQSAga6ofyBG+OPuaLg+rbACedkXSX/CN3C8MR0jlAZP
+IcCCjTkKyEcgoHYQ+9VRmcv9K9K+pHWodJhn/i0W1FV00lgXjR5ettDalHlgDRa/gATLNEt37yMk
+f9Ev1zf7g6pQaH72v/5IvdV4FLSIndUchKND9RO4pURhvlyJWJzgmBHmc0bVTYPYbxb7JcScPPDp
+qOyZv3H/EqF+kSxndhcikrn8ZD+mi3Yteo2uGUAYsl/KaZDISpec0/w=</X509Certificate></X509Data></KeyInfo></KeyDescriptor><ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.udem.edu:443/samlartresolve" index="1"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.udem.edu/samlsso" ResponseLocation="https://login.udem.edu/samlsso"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.udem.edu/samlsso" ResponseLocation="https://login.udem.edu/samlsso"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.udem.edu/samlsso" ResponseLocation="https://login.udem.edu/samlsso"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.udem.edu/samlsso"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.udem.edu/samlsso"/></IDPSSODescriptor></EntityDescriptor>
